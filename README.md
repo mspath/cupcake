@@ -1,5 +1,4 @@
-Cupcake app
-===========
+# Cupcake app
 
 This app is part of the [Android Basics in Kotlin] course from Google, see [Unit 3] [Pathway 3] and the [Shared ViewModel Across Fragments] Codelab and the [Navigation and the back stack] Codelab.
 
@@ -20,10 +19,10 @@ data binding, LiveData, and the Jetpack Navigation component.
 
 Environment
 
-- Kotlin 1.4.32
-- Android Studio 4.1.3
-- Gradle Plugin 4.1.3
+- Kotlin 1.6.10
+- Android Studio Bumblebee 2021.1.1
+- Gradle Plugin 7.1.2
 
 ----
 
-updated: 2021-04-13
+updated: 2022-03-07
