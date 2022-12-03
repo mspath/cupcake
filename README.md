@@ -7,22 +7,25 @@ This app contains an order flow for cupcakes with options for quantity, flavor, 
 This app demonstrates multiple fragments in an activity, a shared ViewModel across fragments,
 data binding, LiveData, and the Jetpack Navigation component.
 
-----
-
 [Android Basics in Kotlin]: https://developer.android.com/courses/android-basics-kotlin/course
 [Unit 3]: https://developer.android.com/courses/android-basics-kotlin/unit-3
 [Pathway 3]: https://developer.android.com/courses/pathways/android-basics-kotlin-unit-3-pathway-3
 [Shared ViewModel Across Fragments]: https://developer.android.com/codelabs/basic-android-kotlin-training-shared-viewmodel
 [Navigation and the back stack]: https://developer.android.com/codelabs/basic-android-kotlin-training-navigation-backstack
 
-----
+---
 
 Environment
 
-- Kotlin 1.7.10
-- Android Studio Chipmunk 2021.2.1
-- Gradle Plugin 7.2.2
+- Kotlin 1.7.20
+- Android Studio Dolphin 2021.3.1
+- Gradle Plugin 7.3.1
 
-----
+---
 
-updated: 2022-08-20
+```
+language: kotlin
+repo: cupcake
+status: archived
+updated: 2022-12-03
+```
