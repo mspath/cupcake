@@ -3,8 +3,8 @@ package com.example.cupcake.model
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.map
 import kotlinx.coroutines.flow.Flow
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
@@ -25,7 +25,7 @@ class OrderViewModel : ViewModel() {
     val date: LiveData<String> = _date
 
     private val _price = MutableLiveData<Double>()
-    val price: LiveData<String> = Transformations.map(_price) {
+    val price: LiveData<String> = _price.map {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
